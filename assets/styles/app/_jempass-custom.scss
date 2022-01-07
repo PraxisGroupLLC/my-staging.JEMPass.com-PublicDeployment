@@ -15,3 +15,11 @@
   // Remove focus outline from opened modal
   outline: 0;
 }
+
+@media (min-width: 768px) {
+
+  .modal-xl { 
+    width: 90% !important; 
+    max-width: 1000px !important;
+  }
+}
